@@ -232,5 +232,5 @@ Walk away immediately if any of the following critical conditions are present:
 ---
 
 **Hardware Buying & Maintenance Guides**  
-Authored by **M. Hamza** ([@XBEAST1](https://github.com/XBEAST1)). For the latest updates, companion component guides, and contributions, visit the [GitHub Repository](https://github.com/XBEAST1/Laptop-And-Mobile-Buying-Guides).
+Authored by **M. Hamza** ([@XBEAST1](https://github.com/XBEAST1)). For the latest updates, companion component guides, and contributions, visit the [GitHub Repository](https://github.com/XBEAST1/Hardware-Buying-Guides).
 

@@ -205,5 +205,5 @@ Physical & Sound Check (1m) ──> CrystalDiskInfo Audit (2m) ──> HDDScan S
 ---
 
 **Hardware Buying & Maintenance Guides**  
-Authored by **M. Hamza** ([@XBEAST1](https://github.com/XBEAST1)). For the latest updates, companion component guides, and contributions, visit the [GitHub Repository](https://github.com/XBEAST1/Laptop-And-Mobile-Buying-Guides).
+Authored by **M. Hamza** ([@XBEAST1](https://github.com/XBEAST1)). For the latest updates, companion component guides, and contributions, visit the [GitHub Repository](https://github.com/XBEAST1/Hardware-Buying-Guides).
 
