@@ -34,8 +34,8 @@ Carry a flash drive loaded with these portable utilities:
 ## 📚 Table of Contents
 
 > [!TIP]
-> **Saving Guides for Offline Use in Shops:**
-> When inspecting hardware at a local shop counter with no internet, you can easily save any guide as an offline PDF. Open any guide in your web browser, press **`Ctrl + P`** (Windows / Linux) or **`Cmd + P`** (macOS), and choose **"Save as PDF"**.
+> **Need Printable Offline PDFs for the Shop?**
+> Pre-compiled, printable PDF editions for every guide (including individual component sheets and an all-in-one Master Handbook) are available for 1-click download on our [**Latest GitHub Release (v1.0.0)**](https://github.com/XBEAST1/Hardware-Buying-Guides/releases/latest).
 
 ### 1. Complete Device Guides
 * [**Laptop Buying Guide**](Laptop/README.md): Complete pre-purchase and hardware inspection checklist (with pre-loaded diagnostic tools in [`Laptop/Softwares/`](Laptop/Softwares/)).

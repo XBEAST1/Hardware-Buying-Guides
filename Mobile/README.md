@@ -3,7 +3,7 @@
 A comprehensive, beginner-friendly inspection checklist for buying used, refurbished, and kit-packed smartphones, with specialized diagnostic procedures and carrier model matrices for Google Pixel devices.
 
 > [!TIP]
-> **Offline Use:** Press **`Ctrl + P`** (Windows / Linux) or **`Cmd + P`** (macOS) in your web browser to save this guide as an offline PDF for in-shop testing.
+> **Need an Offline Copy?** Download the official printable [**Mobile-Buying-Guide.pdf**](https://github.com/XBEAST1/Hardware-Buying-Guides/releases/latest) from the latest release to keep on your phone or USB drive.
 
 ---
 
