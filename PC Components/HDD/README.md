@@ -201,3 +201,9 @@ Physical & Sound Check (1m) ──> CrystalDiskInfo Audit (2m) ──> HDDScan S
 | ❌ | Rhythmic repetitive clicking ("click of death") or violent vibrating during spin-up. | **REJECT (Head Crash / Motor Bearing Failure)** |
 | ❌ | CrystalDiskMark write speed collapses and stays stuck under 20 MB/s. | **REJECT (Degraded Surface / SMR Zone Collapse)** |
 | ❌ | 5+ year old drive reporting under 100 Power-On Hours on CrystalDiskInfo. | **REJECT (Wiped S.M.A.R.T. Counter Fraud)** |
+
+---
+
+**Hardware Buying & Maintenance Guides**  
+Authored by **M. Hamza** ([@XBEAST1](https://github.com/XBEAST1)). For the latest updates, companion component guides, and contributions, visit the [GitHub Repository](https://github.com/XBEAST1/Laptop-And-Mobile-Buying-Guides).
+

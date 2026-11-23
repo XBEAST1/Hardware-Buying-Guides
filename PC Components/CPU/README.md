@@ -153,3 +153,9 @@ Fraudulent sellers take a budget processor (e.g., Celeron G6900 or Core i3-12100
 | ❌ | L3 cache or core count in CPU-Z does not match official specification. | **REJECT (Swapped IHS Fraud)** |
 | ❌ | 7-Zip benchmark throws error or crashes during decompression passes. | **REJECT (Degraded Silicon / $V_{\text{min}}$ Shift)** |
 | ❌ | CPU-Z / Cinebench triggers WHEA BSOD `0x124`, clock lock at 800 MHz, or Core temp delta wider than 20°C. | **REJECT (Fatal Core Failure)** |
+
+---
+
+**Hardware Buying & Maintenance Guides**  
+Authored by **M. Hamza** ([@XBEAST1](https://github.com/XBEAST1)). For the latest updates, companion component guides, and contributions, visit the [GitHub Repository](https://github.com/XBEAST1/Laptop-And-Mobile-Buying-Guides).
+

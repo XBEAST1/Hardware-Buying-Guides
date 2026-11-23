@@ -231,3 +231,9 @@ Corrupted BIOS NVRAM settings, bad memory training profiles, conflicting PCIe/US
 7. **Expected Behavior:**
    - The PC may power cycle once or twice as it relearns hardware and completes fresh memory training.
    - The freeze will clear, and the motherboard will either boot directly to Windows or display: *"Press F1 to enter setup / restore default settings"*. Enter BIOS, re-enable XMP/EXPO, set system time/boot drive, and save.
+
+---
+
+**Hardware Buying & Maintenance Guides**  
+Authored by **M. Hamza** ([@XBEAST1](https://github.com/XBEAST1)). For the latest updates, companion component guides, and contributions, visit the [GitHub Repository](https://github.com/XBEAST1/Laptop-And-Mobile-Buying-Guides).
+

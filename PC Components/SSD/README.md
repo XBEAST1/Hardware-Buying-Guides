@@ -251,3 +251,9 @@ Weight & Tap Check (20s) ──> CDI Decimal & SATA Link Audit (40s) ──> 1-P
 | ❌ | Drive weighs under 30 grams or sounds hollow when tapped. | **REJECT (MicroSD Array Scam)** |
 | ❌ | ValiDrive detects non-declared or phantom addresses. | **REJECT (Firmware Capacity Spoof)** |
 | ❌ | CDM write speed collapses to 5 to 20 MB/s. | **REJECT (MicroSD Fake / Dying NAND)** |
+
+---
+
+**Hardware Buying & Maintenance Guides**  
+Authored by **M. Hamza** ([@XBEAST1](https://github.com/XBEAST1)). For the latest updates, companion component guides, and contributions, visit the [GitHub Repository](https://github.com/XBEAST1/Laptop-And-Mobile-Buying-Guides).
+

@@ -33,14 +33,14 @@ Carry a flash drive loaded with these portable utilities:
 
 ## 📚 Table of Contents
 
+> [!TIP]
+> **Saving Guides for Offline Use in Shops:**
+> When inspecting hardware at a local shop counter with no internet, you can easily save any guide as an offline PDF. Open any guide in your web browser, press **`Ctrl + P`** (Windows / Linux) or **`Cmd + P`** (macOS), and choose **"Save as PDF"**.
+
 ### 1. Complete Device Guides
-* [**Laptop Buying Guide**](Laptop/): Complete pre-purchase and hardware inspection checklist.
-  * Formats: [PDF Guide](Laptop/Laptop%20Guide.pdf) | [Word DOCX](Laptop/Laptop%20Guide.docx)
-  * Portable diagnostic suite included in [`Laptop/Softwares/`](Laptop/Softwares/) (CrystalDiskInfo, CrystalDiskMark, FurMark, HWiNFO64, Dead Pixel Buddy).
-* [**MacBook Buying Guide**](Macbook%20Guide/): Pre-purchase and inspection guides for Apple Silicon (M1/M2/M3/M4) and Intel MacBooks.
-  * Formats: [PDF Guide](Macbook%20Guide/Macbook%20Guide.pdf) | [Word DOCX](Macbook%20Guide/Macbook%20Guide.docx)
-* [**Mobile Buying Guide**](Mobile/): Complete physical and operational inspection checklist for iOS (iPhone) and Android smartphones.
-  * Formats: [PDF Guide](Mobile/Mobile%20Guide.pdf) | [Word DOCX](Mobile/Mobile%20Guide.docx)
+* [**Laptop Buying Guide**](Laptop/README.md): Complete pre-purchase and hardware inspection checklist (with pre-loaded diagnostic tools in [`Laptop/Softwares/`](Laptop/Softwares/)).
+* [**MacBook Buying Guide**](Macbook%20Guide/README.md): Pre-purchase and inspection guides for Apple Silicon (M1/M2/M3/M4) and Intel MacBooks.
+* [**Mobile Buying Guide**](Mobile/README.md): Complete physical and operational inspection checklist for iOS and Android smartphones (with Google Pixel diagnostic matrix).
 
 ---
 
@@ -68,5 +68,11 @@ All desktop and internal hardware guides are organized inside [`PC Components/`]
 
 ---
 
-## Contributing & Feedback
+## 👤 Author & Maintainer
+
+Created and maintained by **M. Hamza** ([@XBEAST1](https://github.com/XBEAST1)).
+
+---
+
+## 🤝 Contributing & Feedback
 Feel free to open an issue or pull request if you want to suggest new hardware sections, tips, or updates to existing guides!

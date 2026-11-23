@@ -136,3 +136,9 @@ The Hotspot will always be warmer because it measures the single hottest point o
 | ❌ | FurMark artifact scanner detects bit errors; screen displays colored dots or flashes. | **REJECT (Dying VRAM)** |
 | ❌ | Hotspot gap wider than 25°C or Hotspot exceeds 105°C under load. | **REJECT (Overheating / Cooler Fault)** |
 | ❌ | Hairline crack near PCIe notch, stripped screws, or sticky flux pooling around BGA chips. | **REJECT (Structural / BGA fault)** |
+
+---
+
+**Hardware Buying & Maintenance Guides**  
+Authored by **M. Hamza** ([@XBEAST1](https://github.com/XBEAST1)). For the latest updates, companion component guides, and contributions, visit the [GitHub Repository](https://github.com/XBEAST1/Laptop-And-Mobile-Buying-Guides).
+

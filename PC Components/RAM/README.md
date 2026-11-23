@@ -193,3 +193,9 @@ Over **80% of used RAM sticks** classified by sellers as "dead" or causing no-PO
 | ❌ | CPU-Z SPD shows blank DRAM manufacturer or generic green stick part number under an advertised gaming heatsink. | **REJECT (Counterfeit / Fake Heatspreader)** |
 | ❌ | PC boot-loops on XMP/EXPO, memory speed drops below 3200 MT/s, or resets to default 2133/4800 MT/s safe mode. | **REJECT (Defective Silicon / Fails Rated Speed)** |
 | ❌ | Memory latency exceeds 75ns on standard DDR4 kits, or 7-Zip Benchmark / memory test throws arithmetic errors or BSOD within 60 seconds. | **REJECT (Silicon Memory Corruption / Timing Instability)** |
+
+---
+
+**Hardware Buying & Maintenance Guides**  
+Authored by **M. Hamza** ([@XBEAST1](https://github.com/XBEAST1)). For the latest updates, companion component guides, and contributions, visit the [GitHub Repository](https://github.com/XBEAST1/Laptop-And-Mobile-Buying-Guides).
+

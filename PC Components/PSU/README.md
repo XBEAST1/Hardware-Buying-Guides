@@ -186,3 +186,9 @@ Perform these 4 quick visual checks on the cable bundle before handing over mone
 | ❌ | Missing essential cables or mixed/mismatched modular cables from other brands. | **REJECT (Fatal Reverse-Polarity Hazard)** |
 | ❌ | Featherweight (under 1.0 kg) grey box, bare "ketchup & mustard" wires, or listed on Tier F blacklist. | **REJECT (Fire Hazard / No Protections)** |
 | ❌ | Voltage drop exceeds 0.6V (12V rail drops below 11.40V under load), violating ATX 5% voltage regulation tolerance. | **REJECT (Defective Voltage Regulation)** |
+
+---
+
+**Hardware Buying & Maintenance Guides**  
+Authored by **M. Hamza** ([@XBEAST1](https://github.com/XBEAST1)). For the latest updates, companion component guides, and contributions, visit the [GitHub Repository](https://github.com/XBEAST1/Laptop-And-Mobile-Buying-Guides).
+
