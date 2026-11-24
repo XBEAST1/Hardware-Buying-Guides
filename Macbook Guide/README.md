@@ -16,7 +16,7 @@ When purchasing a MacBook from a local shop or private seller, follow this prior
 | **1** | **iCloud & MDM** | Factory Reset / Settings | "Sign In" shown, Activation Lock Disabled | Remote Management (MDM) profile, iCloud locked |
 | **2** | **Diagnostics** | Apple Diagnostics Mode | Diagnostic Reference Code: `ADP000` | Hardware fault code (battery, logic board, RAM) |
 | **3** | **Physical Chassis** | Exterior & Screw Check | Factory pentalobe screws, flat aluminum case | Stripped screws, bulging bottom plate, dented lid |
-| **4** | **Model & Specs** | Apple Menu > About This Mac | Verified chip, RAM, and exact model year | Seller claims M2 but specs show M1 or older Intel |
+| **4** | **Model & Specs** | Apple Menu > About This Mac | Verified chip tier (Base vs Pro vs Max), RAM, year | Sold as "M1 Pro" but is 13" Base M1, fake specs |
 | **5** | **Battery & Charger** | System Report & CoconutBattery | Health above 90%, cycles under 1,000 | "Service Recommended", cycle count over 1,000 |
 | **6** | **Storage Health** | System Report > Storage | S.M.A.R.T. Status: "Verified" | "Failing" status, storage falsely reports full |
 | **7** | **Display & Coating** | Dead Pixel Test & Hinge Tilt | Uniform brightness, no delamination | Staingate coating peel, Flexgate stage lighting |
@@ -73,12 +73,64 @@ Run Apple's built-in hardware diagnostic tool immediately after confirming the m
 
 ---
 
-## 4. Specifications, Model Year & Idle Thermals
+## 4. Specifications, Apple Silicon Hierarchy & The "Pro" Chip Trap
 
-1. **Verifying Genuine Hardware:** Click the **Apple logo** in the top-left menu bar and select **About This Mac**:
-   * Confirm the exact model name, release year, processor (Apple Silicon M-Series or Intel Core), unified memory (RAM), and installed macOS version.
-   * Older release years command substantially lower resale value.
-2. **Idle Thermal Test:** Open Safari, open several tabs, and navigate through System Settings. A healthy MacBook should remain cool or lukewarm to the touch. If an Apple Silicon MacBook becomes uncomfortably hot to the touch during simple idle tasks, suspect damaged internal logic board power rails or thermal paste failure.
+Uninformed buyers frequently fall victim to a common shopkeeper pricing trap: paying premium **M1 Pro / M2 Pro** money for a machine that actually contains an entry-level **Base M1 / Base M2** chip.
+
+### The "MacBook Pro" Chip Bait-and-Switch Trap
+
+In 2020 and 2022, Apple sold a **13-inch MacBook Pro** that had the word "Pro" stamped on the screen bezel, but contained the exact same basic **Base M1 or Base M2 chip** found in the fanless MacBook Air.
+
+Many shopkeepers will advertise a laptop simply as a *"MacBook Pro M1"* and charge the higher market rate of a 14-inch M1 Pro laptop. Always verify the exact silicon name before agreeing on a price:
+* **Apple M1 / M2 / M3 / M4 (Base Chip):** Entry-level performance. Max 1 external display (M1/M2). 8 CPU cores. Budget tier.
+* **Apple M1 Pro / M2 Pro / M3 Pro / M4 Pro (Pro Chip):** High-performance tier. Up to 2 external displays natively. 10 to 14 CPU cores, double memory bandwidth.
+* **Apple M1 Max / M2 Max / M3 Max / M4 Max (Max Chip):** Extreme workstation tier. Up to 4 external displays natively. Massive 24 to 40 GPU cores.
+
+### How to Verify the Exact Chip on the Machine:
+
+1. Click the **Apple logo** (top-left) > **About This Mac**.
+2. Look at the **Chip** line carefully:
+   * It must explicitly state `Apple M1 Pro` or `Apple M1 Max`, not just `Apple M1`.
+3. Check **System Settings > General > About > System Report > Hardware**:
+   * Inspect **Total Number of Cores**: Base M1 has 8 cores (4 performance + 4 efficiency). M1 Pro has 8 or 10 cores (6 or 8 performance + 2 efficiency).
+4. **Physical Chassis Confirmation:**
+   * If the laptop has a **Touch Bar** and only **2 USB-C ports**, it is guaranteed to be an older 13-inch model with a **Base M1 or M2 chip**.
+   * True M1 Pro / M2 Pro laptops have a physical Function row (no Touch Bar), a display notch, MagSafe 3, an HDMI port, and an SD card slot.
+
+---
+
+### Apple Silicon Chassis & Processor Hierarchy Matrix
+
+Understand which processors belong to which MacBook models so you immediately recognize what hardware you are inspecting:
+
+| Laptop Model & Chassis | Starting Processor | Available Chip Options | External Monitors | Identifying Features & Traps |
+| :--- | :--- | :--- | :---: | :--- |
+| **MacBook Air 13" & 15"** | **Base M-Series** | Base M1, Base M2, Base M3 | 1 Display (2 on M3 with lid closed) | Completely fanless (silent). 2x Thunderbolt ports. **Never** comes with Pro or Max chips. |
+| **MacBook Pro 13" (Touch Bar)** | **Base M-Series** | Base M1, Base M2 | 1 Display | **Major Trap:** Has Touch Bar and 2x ports. Carries the "Pro" badge on bezel, but runs the **Base chip** with a cooling fan. |
+| **MacBook Pro 14" (2021 M1 / 2023 M2)** | **Pro Tier** | M1 Pro, M1 Max / M2 Pro, M2 Max | Up to 2 (Pro) / 4 (Max) | Liquid Retina XDR Mini-LED (120Hz), notch, MagSafe, HDMI, SD card, 3x Thunderbolt. **Never came with base M1 or base M2**. |
+| **MacBook Pro 14" (Late 2023 M3 / 2024 M4)** | **Base Tier** | Base M3 / Base M4, Pro, Max | 1 (Base M3) / 2 to 4 (Pro/Max) | **Check closely:** Apple introduced a budget 14" tier starting with **Base M3** (only 2x ports, Silver/Space Gray) alongside the 3x-port M3 Pro/Max (Space Black). |
+| **MacBook Pro 16" (All Generations)** | **Pro Tier Only** | M1/M2/M3/M4 Pro, M1/M2/M3/M4 Max | Up to 2 (Pro) / 4 (Max) | Largest chassis, massive 100 Wh battery. **Strictly Pro or Max chips**. There is no base chip on any 16-inch MacBook Pro. |
+
+---
+
+### Apple Silicon Tier Differences (Base vs. Pro vs. Max)
+
+| Feature | Base Chip (M1 / M2 / M3 / M4) | Pro Chip (M1 / M2 / M3 / M4 Pro) | Max Chip (M1 / M2 / M3 / M4 Max) |
+| :--- | :---: | :---: | :---: |
+| **Target Audience** | Everyday office, students, light coding | Software developers, audio, 4K multi-cam | 3D animation, 8K video, local AI / LLMs |
+| **CPU Cores** | 8 to 10 Cores | 10 to 14 Cores | 10 to 16 Cores |
+| **GPU Cores** | 7 to 10 Cores | 14 to 20 Cores | 24 to 40 Cores |
+| **Memory Bandwidth** | 68 to 150 GB/s | 150 to 273 GB/s | 300 to 546 GB/s |
+| **Native External Displays** | 1 Monitor (2 on M3/M4 lid closed) | Up to 2 Monitors | Up to 4 Monitors |
+| **Pricing Tier in Used Market** | Budget / Entry Tier | Mid-to-High Professional Tier | Premium Workstation Tier |
+
+---
+
+### Idle Thermal & Logic Board Test
+
+1. Open Safari, launch 5 to 6 tabs, and open System Settings.
+2. An Apple Silicon MacBook should remain completely cool or lukewarm to the touch under basic navigation.
+3. If an Apple Silicon MacBook becomes uncomfortably hot to the touch during simple idle tasks, suspect damaged internal logic board power rails, shorted capacitors, or dried-out thermal interface material.
 
 ---
 
